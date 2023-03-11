@@ -22,8 +22,8 @@ ul {
 
 img {
     margin-top: 0.5rem;
-    width: 80%;
-    height: 80%;
+    width: 60vw;
+    height: 60vw;
 }
 
 input {
@@ -101,5 +101,10 @@ label:hover .meme-icon {
 @media only screen and (min-width: 820px) {
     body {
         font-size: 1.8rem;
+    }
+
+    img {
+        width: 50vw;
+        height: 50vw;
     }
 }
