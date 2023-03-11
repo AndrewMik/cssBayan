@@ -108,3 +108,22 @@ label:hover .meme-icon {
         height: 50vw;
     }
 }
+
+@media only screen and (min-width: 1400px) {
+    img {
+        width: 40vw;
+        height: 40vw;
+    }
+}
+
+
+@media only screen and (min-width: 1920px) {
+    body {
+        font-size: 2.2rem;
+    }
+
+    img {
+        width: 30vw;
+        height: 30vw;
+    }
+}
