@@ -126,6 +126,20 @@ label:hover .meme-icon {
     .accordion {
         width: 70%;
     }
+
+    label:has(input:checked) img {
+        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    }
+
+    label:hover img {
+        box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+        border-radius: 29px;
+        padding: 10px 10px;
+    }
+
+    label:active {
+        opacity: 0.4;
+    }
 }
 
 @media only screen and (min-width: 1920px) {
