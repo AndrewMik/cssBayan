@@ -98,12 +98,6 @@ label:hover .meme-icon {
     background-image: url(./assets/bold-star.png);
 }
 
-@media only screen and (min-width: 600px) {
-    body {
-        font-size: 1.4rem;
-    }
-}
-
 @media only screen and (min-width: 820px) {
     body {
         font-size: 1.8rem;
@@ -116,13 +110,10 @@ label:hover .meme-icon {
 }
 
 @media only screen and (min-width: 1024px) {
-    .meme-icon {
+    .accordion:hover .meme-icon {
         display: block;
     }
-}
 
-
-@media only screen and (min-width: 1280px) {
     body {
         font-size: 2rem;
     }
@@ -136,7 +127,6 @@ label:hover .meme-icon {
         width: 70%;
     }
 }
-
 
 @media only screen and (min-width: 1920px) {
     body {
